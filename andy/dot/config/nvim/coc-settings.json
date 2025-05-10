@@ -1,0 +1,26 @@
+{
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "html"
+  ],
+  "coc.dependecies": [
+    "coc-json",
+    "coc-tsserver",
+    "coc-css",
+    "coc-html",
+    "coc-prettier",
+    "coc-tslint-plugin",
+    "coc-yaml",
+    "coc-prisma",
+    "coc-sh",
+    "@yaegassy/coc-tailwindcss3"
+  ]
+}

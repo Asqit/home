@@ -1,0 +1,18 @@
+# Base nano settings
+set constantshow	    # displays useful informations
+set tabsize 4		    # set tab spaces to 4 whitespaces
+set linenumbers 	    # show line numbers
+set minibar 		    # Displays file name and other intormations
+set indicator		    # Displays a scroll bar on right
+set historylog		    # save the last 100 history
+set boldtext		    # bold font for: title, status,function, number, selection
+set mouse 		        # enable mouse support
+
+
+
+# Keyboard shortcuts
+bind ^C copy main           # CTRC+C - Copy
+bind ^V paste all           # CTRL+V - Past
+bind ^F whereis all         # CTRL+F - Find
+bind ^S savefile main       # CTRL+S - Save
+bind ^Q exit all 	        # CTRL+Q - Exit editor

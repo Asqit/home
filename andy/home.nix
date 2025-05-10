@@ -86,10 +86,10 @@
 
   # Copy wallpapers to desired locations
   home.file.".local/share/backgrounds/gruvbox-skull.jpg".source =
-    ../../metadata/wallpapers/gruvbox-skull/gruvbox-skull.jpg;
+    ./meta/wallpapers/gruvbox-skull/gruvbox-skull.jpg;
 
   home.file.".local/share/backgrounds/gruvbox-skull--dark.png".source =
-    ../../metadata/wallpapers/gruvbox-skull/gruvbox-skull--dark.png;
+    ./meta/wallpapers/gruvbox-skull/gruvbox-skull--dark.png;
 
   # Setup GTK
   gtk = {

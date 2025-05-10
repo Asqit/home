@@ -24,14 +24,14 @@
           system = "x86_64-linux";
           specialArgs = { inherit inputs; };
           modules = [
-            ./hosts/zen-garden/configuration.nix
+            ./nixos/configuration.nix
             home-manager.nixosModules.home-manager
             {
               home-manager = {
                 backupFileExtension = "hm-backup";
                 useUserPackages = true;
                 extraSpecialArgs = { inherit inputs; };
-                users.andy = import ./hosts/zen-garden/home.nix;
+                users.andy = import ./andy/home.nix;
               };
             }
           ];

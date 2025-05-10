@@ -1,0 +1,4 @@
+{
+    "colorscheme": "dracula-tc",
+    "lsp.server": "typescript=typescript-language-server --stdio,javascript=typescript-language-server --stdio"
+}
