@@ -153,7 +153,7 @@
 
     "org/gnome/desktop/interface" = {
       clock-show-weekday = true;
-      enable-animations = false;
+      enable-animations = true;
       text-scaling-factor = 1;
       color-scheme = "prefer-dark";
     };
