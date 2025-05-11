@@ -31,6 +31,9 @@
       fzf
       bat
       eza
+      lm_sensors
+      cloc
+      wrk
 
       # Editors
       micro
@@ -143,6 +146,7 @@
       extend-height = false;
       dash-max-icon-size = 32;
       custom-theme-shrink = true;
+      multi-monitor = true;
     };
 
     "org/gnome/shell/extensions/system-monitor" = {
